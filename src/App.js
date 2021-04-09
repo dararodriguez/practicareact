@@ -24,7 +24,7 @@ export default function FullWidthGrid() {
   return (
     <div className={classes.root}>
       <Container maxWidth="sm">
-      <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '50vh' }}>
+      <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '70vh' }}>
 
       <Grid container spacing={3}>
       <Grid item xs={12}>
