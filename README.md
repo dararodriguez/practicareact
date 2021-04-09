@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Calculadora React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+El proyecto se realiza para poder realizar la interfaz de una calculadora en react, con las funciones básicas.
 
-## Available Scripts
+## Iniciando
 
-In the project directory, you can run:
+Para obtener una copia del proyecto, se da clic en Download Zip, posteriormente debe ejecutar un IDE, se sugiere el Visual Studio Code. 
 
-### `npm start`
+### Requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+La aplicación debe correrse usando React, por lo que se requiere que esté previamente instalado, así como un IDE.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Instalación
 
-### `npm test`
+Para la instalación se sugiere lo usado para su construcción, se utiliza el siguiente software en la maquina:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Git maquina
+NodeJs
+Visual Studio Code
 
-### `npm run build`
+Para el gestor de paquetes: en la carpeta raíz se escribe el comando: 
+npm install -g npm@test
+Para borrar el caché
+npm cache clear --force
+Para instalar react
+npm install -g create-react-app
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Pruebas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Se requieren los siguientes plugins en Visual Code, para un entorno de trabajo similar a cómo se construyó con subida a github:
 
-### `npm run eject`
+Simple react Snippets
+Github
+Githistory
+Github Pull Request
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Agregado el proyecto al IDE, podemos desde la carpeta que tiene el proyecto react ejecutar npm start para verificar que corra la aplicación
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Analizando Pruebas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Debe revisarse que la terminal no muestre errores pues podemos tener problemas al compilar y subir el proyecto posteriormente a git. Lógicamente que corra correctamente la aplicación en el navegador.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Despliegue
 
-## Learn More
+Para un despliegue correcto se requiere que todas las librerias estén agregadas correctamente, verificar que no haya errores en el código habiendo corregido errores si aparecieorn en las pruebas. Para que de esta manera no haya inconveniente al subirlo a github.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Construido con
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+React
+Material-UI
 
-### Code Splitting
+### Versionado
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Se utilizan las diferentes opciones y extensiones de Git para poder ver los cambios y versiones realizadas.
 
-### Analyzing the Bundle Size
+### Autor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+•	Diego Rodriguez Arciniegas - dararodriguez
 
-### Making a Progressive Web App
+### Autor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+La licencia del proyecto es libre, se realiza a modo de práctica y para quién pueda interesar.
