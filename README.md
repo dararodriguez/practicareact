@@ -45,16 +45,6 @@ Debe revisarse que la terminal no muestre errores pues podemos tener problemas a
 
 Para un despliegue correcto se requiere que todas las librerias estén agregadas correctamente, verificar que no haya errores en el código habiendo corregido errores si aparecieorn en las pruebas. Para que de esta manera no haya inconveniente al subirlo a github.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
 ### Construido con
 
 React
